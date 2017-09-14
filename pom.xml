@@ -14,7 +14,7 @@
     
   <maven.compiler.target>1.8</maven.compiler.target>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-   <suiteXmlFile>"C:\EServices\DemoGithub\testdemo.xml"</suiteXmlFile>
+   <suiteXmlFile>"vjanrdhan/EServices/blob/master/testdemo.xml"</suiteXmlFile>
   </properties>
 
   <dependencies>
