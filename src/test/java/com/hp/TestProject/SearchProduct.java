@@ -13,7 +13,8 @@ public class SearchProduct {
 	@Test
 	public void launchBrowser() throws InterruptedException  {
 		
-		System.setProperty("webdriver.chrome.driver",ClassLoader.getSystemResource("chromedriver.exe").getFile());
+		System.setProperty("webdriver.chrome.driver",
+						ClassLoader.getSystemResource("chromedriver.exe").getFile());
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
