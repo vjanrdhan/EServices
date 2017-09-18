@@ -13,9 +13,8 @@ public class SearchProduct {
 	@Test
 	public void launchBrowser() throws InterruptedException  {
 		
-		System.setProperty("webdriver.gecko.driver",
-						ClassLoader.getSystemResource("geckodriver.exe").getFile());
-		driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", ClassLoader.getSystemResource("chromedriver.exe").getFile());
+		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		/** Login to PFP */
