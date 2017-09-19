@@ -137,7 +137,7 @@ WebDriver driver=null;
         
         String[] AttachTestFile = new String[1];
         
-        AttachTestFile[0] = System.getProperty("user.dir") +"\\log4j.html";
+        AttachTestFile[0] = System.getProperty("user.dir") +"/test-output/emailable-report.html";
         // attachments
        /* String[] attachFiles = new String[3];
         attachFiles[0] = "C:\\Users\\vj\\Desktop\\Demo User Access.xlsx";
