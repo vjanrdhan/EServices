@@ -31,4 +31,10 @@ public class SearchProduct {
 		//driver.findElement(By.xpath("//span[contains(text(),'Sign Out')]")).click();
 		driver.quit();
 	}
+	
+	@AfterSuite
+	public void SendMail(){
+		SendMail sendMail=new SendMail(driver);
+		sendMail.test();
+	}
 }
