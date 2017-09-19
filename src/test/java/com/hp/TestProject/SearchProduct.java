@@ -13,10 +13,10 @@ public class SearchProduct {
 	@Test
 	public void launchBrowser() throws InterruptedException  {
 		
-		//System.setProperty("webdriver.chrome.driver", ClassLoader.getSystemResource("chromedriver.exe").getFile());
-		//driver = new ChromeDriver();
-		System.setProperty("webdriver.ie.driver", ClassLoader.getSystemResource("IEDriverServer.exe").getFile());
-				driver = new InternetExplorerDriver();
+		System.setProperty("webdriver.chrome.driver", ClassLoader.getSystemResource("chromedriver.exe").getFile());
+		driver = new ChromeDriver();
+		//System.setProperty("webdriver.ie.driver", ClassLoader.getSystemResource("IEDriverServer.exe").getFile());
+		//driver = new InternetExplorerDriver();
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
