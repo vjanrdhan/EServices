@@ -27,8 +27,8 @@ public class SearchProduct {
 		driver.findElement(By.id("sign-in-btn")).click();
 		Thread.sleep(2000);
 		System.out.println("Current URL is "+driver.getCurrentUrl());
-		driver.findElement(By.xpath(".//*[@id='dock-content']/div/ul/li[3]/a")).click();
-		driver.findElement(By.xpath("//span[contains(text(),'Sign Out')]")).click();
+		//driver.findElement(By.xpath(".//*[@id='dock-content']/div/ul/li[3]/a")).click();
+		//driver.findElement(By.xpath("//span[contains(text(),'Sign Out')]")).click();
 		driver.quit();
 	}
 }
